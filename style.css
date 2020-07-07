@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding:0;
+
+  background-image: url('r.jpg');
+  background-size: cover;
+}
+div{
+  background-color: #0002;
+  border-style: groove;
+  position:absolute;
+  left:500px;
+  right:500px;
+  top:100px;
+  width:40%;
+}
+h1{
+  text-align: center;
+  margin-top:10px;
+  color: red;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+label{
+  color:white;
+}
+
+form table{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.i{
+  margin: 10px;
+  background-color: #0000;
+  border-style:none none double none;
+  border-color:yellow;
+  width:150px;
+  outline-style: none;
+  color:white;
+}
+.button{
+  margin: 10px;
+width:100px;
+height:50px;
+  border-radius: 20px;
+  border: none;
+  background-color:#0000;
+  border-style:double;
+  border-color: green;
+  color:green;
+  outline-style: none;
+}
+.button:hover{
+  background-color: green;
+  color:white;
+}
+input:required:focus {
+ border: 2px solid red;
+ border-style: none none solid none;
+ outline: none;
+}
